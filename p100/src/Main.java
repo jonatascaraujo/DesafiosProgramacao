@@ -8,16 +8,15 @@ class Main {
 	
 	public static void main(String args[]) {
 		int menor, maior;
+		
 		Scanner scan = new Scanner(System.in);
 		while (scan.hasNext()) {
+			//pega o dois numeros
 			menor = scan.nextInt();
 			maior = scan.nextInt();
-			if(maior<menor){
-				int temp = maior;
-				maior=menor;
-				menor =temp;
-			}
+			
 			int tamanhoCiclico = executaAlgoritmo(menor, maior);
+			
 			System.out.println(menor + " " + maior + " " + tamanhoCiclico);
 			scan.nextLine();
 		}
@@ -25,6 +24,13 @@ class Main {
 	}
 
 	static int executaAlgoritmo(int menor, int maior) {
+		//garante a ordem
+		if(maior<menor){
+			int temp = maior;
+			maior=menor;
+			menor =temp;
+		}
+		
 		int maiorTamanhoCiclico = 0;
 		for (int i = menor; i <= maior; i++) {
 			int tamanhoCiclico = executaConjectura(i);
