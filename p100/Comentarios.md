@@ -14,4 +14,3 @@ Código    |Veredito             |Tempo  |Data
 6714150   |Time limit exceeded  |3000ms |09/10/2008 - 21:22:03
 6713744   |Wrong answer         |90ms   |09/10/2008 - 18:03:59
 6713579   |Compilation error    |-      |09/10/2008 - 15:02:12
-6713579   |Compilation error    |-      |09/10/2008 - 15:02:12
