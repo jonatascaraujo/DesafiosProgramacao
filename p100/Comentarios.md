@@ -1,6 +1,6 @@
 # Submissões
 
-Cdigo     | Problema                 |Veredito             |Tempo     |Data
+Código     | Problema                 |Veredito             |Tempo     |Data
 ---------:|:-------------------------|:-------------------:|---------:|:-------------------:
 21099546  |100 The 3n + 1 problem    |Accepted             |290       |07/04/2018 - 17:43:46
 8618297   |100 The 3n + 1 problem    |Runtime error        |0         |02/03/2011 - 18:30:19
