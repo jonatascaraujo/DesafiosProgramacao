@@ -41,7 +41,7 @@ public class Main {
 				n = scan.nextInt();
 			}
 		}
-
+		scan.close();
 	}
 
 	private static int executar(int count) {
