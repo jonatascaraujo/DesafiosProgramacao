@@ -7,11 +7,4 @@
 .DS_Store
  
 # Maven
-log/
 target/
-*.class
-.mtj.tmp/
-*.jar
-*.war
-*.ear
-hs_err_pid*
